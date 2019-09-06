@@ -18,3 +18,16 @@
 ### 1.4 migrate
     > truffle migrate
         : ganache에 배포됨. 
+
+## 2. truffle suite boxes (예제 패키지) 
+
+### 2.1 metacoin
+    > mkdir metacoin
+    > cd metacoin
+    > truffle unbox metacoin
+
+### 2.2 in truffle dev cli
+    > truffle develop
+        (develop)> compile
+        (develop)> migrate
+        (develop)> test
