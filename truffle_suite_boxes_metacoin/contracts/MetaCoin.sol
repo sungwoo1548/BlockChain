@@ -13,7 +13,7 @@ contract MetaCoin {
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
 	constructor() public {
-		balances[tx.origin] = 10000;
+		balances[tx.origin] = 10000; // tx. 변수 다른: 컨트랙트의 함수를 호출 할 때 sender와 구분.
 	}
 
 	function sendCoin(address receiver, uint amount) public returns(bool sufficient) {
