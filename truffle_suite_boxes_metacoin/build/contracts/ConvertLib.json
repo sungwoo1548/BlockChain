@@ -456,12 +456,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x04d6A73D4C19043a8573386056e63a95F37078D8",
-      "transactionHash": "0xfdca41fdf6cd37e394a6cf556724958df88947f8f1de48ad808bb359e24a2b79"
+      "address": "0x625918939199E1E3Bb372119751b52c27eF56AB3",
+      "transactionHash": "0xbc0566f25c781cfa2394e207f73ec779a3e80f90702d5ed9ecac3889b0804e44"
     }
   },
   "schemaVersion": "3.0.15",
-  "updatedAt": "2019-09-06T02:58:27.494Z",
+  "updatedAt": "2019-09-06T05:49:06.447Z",
   "devdoc": {
     "methods": {}
   },

@@ -57,3 +57,15 @@
     (develop)> compile ; 새파일에 대한 컴파일 성공.
     (develop)> migrate ; 
         // 오류 나면 compile --all & migrate --reset 으로 해결.
+
+
+### 2.5 test at cli
+    - test 폴더 안에 xxxx.js 있음
+    (develop)> test 
+        ;하면 xxxx.js 안의 내용이 실행됨.
+
+### 2.6 TIP
+    - contract 만들고
+    - migration 등록 하고 
+    - test 해보고
+    - 배포~

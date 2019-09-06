@@ -2526,14 +2526,14 @@
         }
       },
       "links": {
-        "ConvertLib": "0x04d6A73D4C19043a8573386056e63a95F37078D8"
+        "ConvertLib": "0x625918939199E1E3Bb372119751b52c27eF56AB3"
       },
-      "address": "0xB2644Fc669eD45ed3D057B0F04bf94e0d51a8C35",
-      "transactionHash": "0x1dda0babc9fcd135e5c1fff63027818d8a8b5c3e82f4f9ba8033ad662e99db42"
+      "address": "0x37cf15D52806F177c6561468aEFdE9EfAF93b4A5",
+      "transactionHash": "0x31ad2b4fe59f31d44a0e1d12575db6903d446cf7cf64b96ea543cd163adb6deb"
     }
   },
   "schemaVersion": "3.0.15",
-  "updatedAt": "2019-09-06T02:58:27.496Z",
+  "updatedAt": "2019-09-06T05:49:06.449Z",
   "devdoc": {
     "methods": {}
   },
