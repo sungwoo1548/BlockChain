@@ -7,4 +7,8 @@
     > cd <folder name>
     > truffle init
 
-###
+### 1.2 connect to ethereum client
+    truffle-config.js
+        / network 설정에서....
+    * default 값은 ganache와 연결됨. (ganache설정확인!)
+
