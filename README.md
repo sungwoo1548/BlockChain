@@ -48,3 +48,12 @@
     (develop)> MyContract.sendCoin(accounts[1],500)
     (develop)> let recieved = await MyContract.getBalance(accounts[1])
     (develop)> recieved.toNumber() ; 하면 1번계정이 500 받았다고 나옴.
+
+
+### 2.4 custom contract migrate.
+    - contracts 폴더 안에 TestContrant.sol 생성
+    - migrations 폴더 안에 3_deploy_testcontract.js 생성
+
+    (develop)> compile ; 새파일에 대한 컴파일 성공.
+    (develop)> migrate ; 
+        // 오류 나면 compile --all & migrate --reset 으로 해결.
