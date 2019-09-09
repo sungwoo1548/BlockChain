@@ -69,3 +69,26 @@
     - migration 등록 하고 
     - test 해보고
     - 배포~
+
+
+## 3. truffle boxes (tutorialtoken) & web & ERC20coin
+
+### 3.1 set tutorialtoken 
+    > mkdir tutorialtoken
+    > cd tutorialtoken
+    > truffle tutorialtoken
+
+### 3.2 env setting
+    > npm install --save openzeppelin-solidity
+    
+    - 파일명 변경 : truffle.js -> truffle-config.js
+    - compile버전 변경 : pragma ^0.5.8
+
+    - tutorialToken.sol만들기
+    - 2_deploy_tutorialtoken.js만들기
+
+### 3.3 시작해보기
+    > truffle compile
+    > truffle migrate
+    > npm run dev    ; (F12 눌러서 개발자 콘솔 확인.)
+
